@@ -59,7 +59,7 @@ Method 1. Using Commandline:
    git clone https://github.com/0bVdnt/simple-java-animations.git
    cd simple-java-animations\colliding-shapes\src
    javac collisionAnimation/*.java
-   java collisionAnimation.AnimatedShapes.java
+   java collisionAnimation.AnimatedShapes
    ```
 Method 2. Using IDEs:
 
