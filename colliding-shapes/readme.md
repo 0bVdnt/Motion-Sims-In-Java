@@ -3,9 +3,9 @@
 This project is a Java application that animates geometric shapes on a panel. The shapes move around, bounce off the edges of the panel, and collide with each other. The application uses Java Swing for the graphical user interface and multithreading to animate the shapes.
 
 ## Project Structure
-    CollidingObjects/
+    colliding-shapes/
     ├── src/
-    │   ├── collisionAndShapes/
+    │   ├── collisionAnimation/
     │   │   ├── AnimatedShapes.java
     │   │   ├── Shape.java
     │   │   ├── ShapeFactory.java
@@ -62,23 +62,22 @@ Method 1. Using Commandline:
    java collisionAnimation.AnimatedShapes.java
    ```
 Method 2. Using IDEs:
-        
-        1. Clone the repository:
-            ```sh
-            git clone https://github.com/0bVdnt/simple-java-animations.git
-            cd CollidingShapes
-            ```
-        2. Open the project in your preferred IDE (e.g., Eclipse, IntelliJ IDEA).
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/0bVdnt/simple-java-animations.git
+    cd colliding-shapes
+    ```
+2. Open the project in your preferred IDE (e.g., Eclipse, IntelliJ IDEA).
       
-        3. Run the AnimatedShapes class:
+3. Run the AnimatedShapes class:
           - In Eclipse: Right-click on AnimatedShapes.java and select  `Run As > Java Application `.
           - In IntelliJ IDEA: Right-click on AnimatedShapes.java and select Run `AnimatedShapes.main()`.
         
-        4. Click on the panel to create and animate shapes.
+4. Click on the panel to create and animate shapes.
 
 ## Features
   1. Graphical User Interface (GUI): 
-      
       - Uses Java Swing to create a graphical panel where shapes are displayed and animated.
   2. Shape Animation: 
       - Shapes move with random initial velocities.
